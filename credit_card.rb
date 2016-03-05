@@ -1,5 +1,4 @@
 #!/usr/bin/env ruby
-
 # Class credit card
 class CreditCard
   attr_accessor :balance
