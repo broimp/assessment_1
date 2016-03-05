@@ -10,4 +10,8 @@ class CreditCard
   def charge(amt)
     @balance += amt
   end
+
+  def payment(amt)
+    @balance -= amt
+  end
 end
