@@ -1,5 +1,4 @@
 #!/usr/bin/env ruby
-
 # Class credit card
 class CreditCard
   attr_accessor :balance
@@ -9,5 +8,9 @@ class CreditCard
 
   def charge(amt)
     @balance += amt
+  end
+
+  def payment(amt)
+    @balance -= amt
   end
 end
